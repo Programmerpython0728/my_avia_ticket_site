@@ -1,0 +1,9 @@
+- model: my_avia_kassa.Order
+  pk: 1
+  fields:
+    product: 1
+    customer: 1
+    phone_number: "+998901234567"
+    quantity: 2
+    status: "Sotib olinmadi"
+    is_paid: true
