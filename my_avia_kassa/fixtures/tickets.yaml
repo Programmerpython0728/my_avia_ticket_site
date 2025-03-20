@@ -1,0 +1,11 @@
+- model: my_avia_kassa.ticket
+  pk: 1
+  fields:
+    flight_number: "TK001"
+    departure_city: "Tashkent"
+    arrival_city: "Istanbul"
+    departure_time: "2025-03-25T10:00:00Z"
+    arrival_time: "2025-03-25T14:00:00Z"
+    price: "500.00"
+    available_seats: 100
+    airline: "Turkish Airlines"
