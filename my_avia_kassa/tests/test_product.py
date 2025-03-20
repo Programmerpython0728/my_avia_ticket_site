@@ -8,7 +8,7 @@ User = get_user_model()
 
 
 class TicketViewSetTestCase(APITestCase):
-    fixtures = ['products']
+    # fixtures = ['products']
 
     def setUp(self):
         self.user = User.objects.create_user(phone_number='+998931500728', password='testpass')
