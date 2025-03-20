@@ -6,7 +6,7 @@ from my_avia_kassa.models import Order, Ticket
 User = get_user_model()
 
 class OrderAPITestCase(APITestCase):
-    fixtures = ['order']
+    fixtures = ['order','tickets']
     def setUp(self):
         # Foydalanuvchi yaratish, telefon raqami bilan
         self.user = User.objects.create_user(
