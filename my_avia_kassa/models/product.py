@@ -10,7 +10,8 @@ class Ticket(models.Model):
     arrival_time = models.DateTimeField()  # Qo'nish vaqti
     price = models.DecimalField(max_digits=10, decimal_places=2)  # Narx
     available_seats = models.IntegerField()  # Mavjud o'rindiqlar soni
-    airline = models.CharField(max_length=100)  # Havo yo'li kompaniyasi
+    airline = models.CharField(max_length=100)
+    name=models.CharField(max_length=200)# Havo yo'li kompaniyasi
 
     def __str__(self):
         return f"{self.flight_number} - {self.departure_city} to {self.arrival_city}"
